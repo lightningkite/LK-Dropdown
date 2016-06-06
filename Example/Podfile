@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LKDropdown_Example' do
+  pod 'LKDropdown', :path => '../'
+
+  target 'LKDropdown_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
